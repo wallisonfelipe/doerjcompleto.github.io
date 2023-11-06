@@ -1,0 +1,40 @@
+/* Banner */
+.banner {
+  padding-bottom: 88px;
+  background-color: rgb(225, 250, 255);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right -15vh;
+  padding-top: 60px;
+}
+
+.banner .container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.banner__cta {
+  max-width: 35%;
+  margin-top: 41px;
+  padding-top: 20px;
+  }
+
+.banner__cta .title {
+  margin-bottom: 15px;
+}
+
+.banner__cta .description {
+  margin-bottom: 32px;
+}
+
+.banner__img {
+  max-width: 60%;
+  align-self: left;
+}
+
+.banner__imagem {
+  max-width: 65%;
+  margin-top: 41px;
+  padding-top: 20px;
+}

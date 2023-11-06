@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diário Completo</title>
+
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/components/title.css">
+  <link rel="stylesheet" href="./css/components/description.css">
+  <link rel="stylesheet" href="./css/components/button.css">
+  <link rel="stylesheet" href="./css/components/header.css">
+  <link rel="stylesheet" href="./css/components/banner.css">
+  <link rel="stylesheet" href="./css/components/about.css">
+  <link rel="stylesheet" href="./css/components/articles.css">
+  <link rel="stylesheet" href="./css/components/footer.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/responsiveness.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>
+        <img class="coracao" src="./assets/images/coracao.png" alt="DOERJ">  DIÁRIO COMPLETO
+      </h1>
+
+      <nav>
+        <a class="header__menu-mobile" href="#">
+          <img class="header__icon" src="./assets/images/icon-hamburger.svg" alt="Icon menu">
+        </a>
+
+        <ul data-js="header-items" class="header__items">
+          <li class="header__item">
+            <a class="header__link" href="#">Início</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Por que ?</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Contato</a>
+          </li>          
+        </ul>
+      </nav>
+
+      <button class="button">Entre no Grupo</button>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <div class="banner__cta">
+        <h2 class="title title--big">DOERJ completo, rápido e sem enrolação</h2>
+        <p class="description">Escolha o caderno de sua preferência e faça o download.</p>
+        
+        <select name="cars" id="cars">
+          <option value="volvo">Executivo</option>
+          <option value="volvo">Tribunal de Contas</option>
+          <option value="saab">Legislativo</option>
+          <option value="mercedes">Municipalidades</option>
+          <option value="audi">Publicação a Pedidos</option>
+        </select>
+
+      </div>
+
+      <div class="banner__imagem">
+        <img class="banner__img" src="./assets/images/main.png" alt="Mockups">
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="about__heading">
+        <h2 class="title title--normal">Por que o Diário Completo ?</h2>
+        <p class="description">A idéia desse site é disponibilizar o diário oficial do Estado do Rio de Janeiro em um aquivo uníco, 
+          com todas as páginas, de maneira rápida e fácil. Entre no grupo do whats app e receba também os arquivos de forma automática, 
+          assim que eles forem desiponibilizados no site oficial.</p>
+      </div>
+
+      <div class="about__content grid">
+        <article class="articles__article--bg">
+          <img class="about__img" src="./assets/images/completo.png" alt="Icon online">
+          <h3 class="about__article-title title title--small">Completo</h3>
+          <p class="description">Um único arquivo com todas as páginas. Não precisa mais baixar uma por uma e depois juntar todas.
+            Fazemos isso pra você.</p>
+        </article>
+
+        <article>
+          <img class="about__img" src="./assets/images/rapido.png" alt="Icon budgeting">
+          <h3 class="about__article-title title title--small">Simples e Rápido</h3>
+          <p class="description">Escolha o caderno na página inicial do site e baixe. Pronto ! É isso...</p>
+        </article>
+
+        <article>
+          <img class="about__img" src="./assets/images/zap.png" alt="Icon onboarding">
+          <h3 class="about__article-title title title--small">Receba no zap</h3>
+          <p class="description">Entre no grupo do whats app e receba os cadernos assim que estiverem disponíveis no site oficial.</p>
+        </article>
+
+        <article>
+          <img class="about__img" src="./assets/images/ajuda.png" alt="Icon API">
+          <h3 class="about__article-title title title--small">Queremos ajudar</h3>
+          <p class="description">Faça parte do nosso grupo do whats app para nos dizer como podemos te ajudar e melhorar a sua 
+            experiência e nossas funcionalidades.</p>
+        </article>
+
+      </div>
+      <br>
+      <br>
+      
+      <button class="button">Entre no Grupo</button>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <nav class="footer__nav container">
+      <div class="column">
+          <h2>
+            <img class="coracao" src="./assets/images/coracao.png" alt="DOERJ">  DIÁRIO COMPLETO
+          </h2>
+      </div>
+
+      <div class="column">
+        <li><a class="footer__link" href="https://wa.me//5521983915557?text=Quero%20entrar%20no%20grupo">Contato: 21 98391-5557</a></li>
+      </div>
+
+      <div class="column">
+        <a class="button" href="">Entre no Grupo</a>
+      </div>
+    </nav>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
